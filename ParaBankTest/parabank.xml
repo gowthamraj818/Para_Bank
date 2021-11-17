@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "parabank">
+<test name="paraBankTestcases">
+		<classes>
+			<class name="testCases.loginPage"></class>
+			<class name="testCases.updateProfile"></class>
+			<class name="testCases.openAccount"></class>
+			<class name="testCases.billPay"></class>
+			<class name="testCases.applyLoan"></class> 
+		</classes>
+	</test>
+</suite>

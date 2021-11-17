@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parabank]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="paraBankTestcases(failed)">
+    <classes>
+      <class name="testCases.updateProfile">
+        <methods>
+          <include name="updateprofile"/>
+          <include name="launchBroswer"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- testCases.updateProfile -->
+      <class name="testCases.billPay">
+        <methods>
+          <include name="paybill"/>
+          <include name="launchBroswer"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- testCases.billPay -->
+      <class name="testCases.applyLoan">
+        <methods>
+          <include name="applyloan"/>
+          <include name="launchBroswer"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- testCases.applyLoan -->
+      <class name="testCases.loginPage">
+        <methods>
+          <include name="verifyloginpage"/>
+          <include name="launchBroswer"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- testCases.loginPage -->
+      <class name="testCases.openAccount">
+        <methods>
+          <include name="openaccount"/>
+          <include name="launchBroswer"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- testCases.openAccount -->
+    </classes>
+  </test> <!-- paraBankTestcases(failed) -->
+</suite> <!-- Failed suite [parabank] -->
